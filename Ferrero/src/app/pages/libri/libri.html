@@ -1,0 +1,53 @@
+<div><p class=" m-2 p-2 bg-danger text-light">{{errorMessage}}</p></div>
+<div><h1>BIBLIOTECA</h1></div>
+<div class="row m-2">
+<select id="selectGenere" [(ngModel)]="selectedGenere">
+    <option value="">Seleziona ....</option>
+    <option value="Storico">Storico</option>
+    <option value="Fantascienza">Fantascienza</option>
+    <option value="Fantasy">Fantasy</option>
+    <option value="Narrativa">Narrativa</option>
+    <option value="Giallo">Giallo</option>
+    <option value="Saggistica">Saggistica</option>
+</select>
+<button class="btn btn-primary mt-2" (click)="loadLibriGenere()">Ricerca per genere</button>
+<button class="btn btn-secondary mt-2" (click)="loadLibri()">Tutti i libri</button>
+<button class="btn btn-success mt-2" (click)="nuovoLibro()">Inserisci nuovo Libro</button>
+</div>
+
+@if(showForm){
+    <div class="border border-success rounded">
+        <h2>Nuovo Libro</h2>
+        <label>Titolo</label>
+        <input type="text" [(ngModel)] = "formData.titolo" required>
+                <br/><label>Genere</label>
+        <input type="text" [(ngModel)] = "formData.genere" >
+               <br/> <label>Autore</label>
+        <input type="text" [(ngModel)] = "formData.autore" >
+                <br/><label>Premi Vinti</label>
+        <input type="text" [(ngModel)] = "premi_vinti_String" >
+              <br/>  <label>Pagine</label>
+        <input type="number" [(ngModel)] = "formData.dettagli.pagine" >
+             <br/>   <label>Editore</label>
+        <input type="text" [(ngModel)] = "formData.dettagli.editore" >
+             <br/>   <label>Anno Pubblicazione</label>
+        <input type="number" [(ngModel)] = "formData.dettagli.annoPubblicazione" >
+        <br/>
+        <button class="btn btn-danger rounded border" (click) = "annulla()">Annulla</button>
+        <button class="btn btn-success rounded border" (click) = "aggiungiLibro()">Aggiungi</button>
+    </div> 
+}
+<div>@for (libro of libri; track libro._id){
+    <div class="p-2 border rounded m-1">
+        <h3>{{libro.titolo}}</h3>
+        <p>{{libro.genere}}</p>
+        <p>{{libro.autore}}</p>
+        <div>@for(premio of libro.premi_vinti; track premio){
+            <span class="border rounded p-1 bg-secondary me-1">{{premio}}</span>
+        }</div>
+        <p>Dettagli</p>
+        <p>{{libro.dettagli.pagine}}</p>
+        <p>{{libro.dettagli.editore}}</p>
+        <p>{{libro.dettagli.annoPubblicazione}}</p>
+    </div>
+}</div>
