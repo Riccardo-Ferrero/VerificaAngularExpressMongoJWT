@@ -1,0 +1,161 @@
+[
+  {
+    "titolo": "Il Nome della Rosa",
+    "genere": "Storico",
+    "autore": "Umberto Eco",
+    "premi_vinti": ["Premio Strega", "Premio Bancarella", "Premio Medici"],
+    "dettagli": {
+      "pagine": 502,
+      "editore": "Bompiani",
+      "annoPubblicazione": 1980
+    }
+  },
+  {
+    "titolo": "I Promessi Sposi",
+    "genere": "Storico",
+    "autore": "Alessandro Manzoni",
+    "dettagli": {
+      "pagine": 720,
+      "editore": "Mondadori",
+      "annoPubblicazione": 1840
+    }
+  },
+  {
+    "titolo": "Baudolino",
+    "genere": "Storico",
+    "autore": "Umberto Eco",
+    "premi_vinti": ["Premio Grinzane Cavour"],
+    "dettagli": {
+      "pagine": 528,
+      "editore": "Bompiani",
+      "annoPubblicazione": 2000
+    }
+  },
+  {
+    "titolo": "1984",
+    "genere": "Fantascienza",
+    "autore": "George Orwell",
+    "dettagli": {
+      "pagine": 328,
+      "editore": "Secker & Warburg",
+      "annoPubblicazione": 1949
+    }
+  },
+  {
+    "titolo": "Il Signore degli Anelli",
+    "genere": "Fantasy",
+    "autore": "J.R.R. Tolkien",
+    "premi_vinti": ["Hugo Award", "International Fantasy Award"],
+    "dettagli": {
+      "pagine": 1178,
+      "editore": "Allen & Unwin",
+      "annoPubblicazione": 1954
+    }
+  },
+  {
+    "titolo": "Harry Potter e la Pietra Filosofale",
+    "genere": "Fantasy",
+    "autore": "J.K. Rowling",
+    "premi_vinti": ["Nestlé Smarties Book Prize", "British Book Award"],
+    "dettagli": {
+      "pagine": 309,
+      "editore": "Bloomsbury",
+      "annoPubblicazione": 1997
+    }
+  },
+  {
+    "titolo": "Fondazione",
+    "genere": "Fantascienza",
+    "autore": "Isaac Asimov",
+    "premi_vinti": ["Hugo Award per la miglior serie"],
+    "dettagli": {
+      "pagine": 255,
+      "editore": "Gnome Press",
+      "annoPubblicazione": 1951
+    }
+  },
+  {
+    "titolo": "Il Piccolo Principe",
+    "genere": "Narrativa",
+    "autore": "Antoine de Saint-Exupéry",
+    "dettagli": {
+      "pagine": 96,
+      "editore": "Gallimard",
+      "annoPubblicazione": 1943
+    }
+  },
+  {
+    "titolo": "Delitto e Castigo",
+    "genere": "Narrativa",
+    "autore": "Fëdor Dostoevskij",
+    "dettagli": {
+      "pagine": 671,
+      "editore": "Einaudi",
+      "annoPubblicazione": 1866
+    }
+  },
+  {
+    "titolo": "La Coscienza di Zeno",
+    "genere": "Narrativa",
+    "autore": "Italo Svevo",
+    "dettagli": {
+      "pagine": 496,
+      "editore": "Cappelli",
+      "annoPubblicazione": 1923
+    }
+  },
+  {
+    "titolo": "Sherlock Holmes: Le Avventure",
+    "genere": "Giallo",
+    "autore": "Arthur Conan Doyle",
+    "dettagli": {
+      "pagine": 307,
+      "editore": "Newnes",
+      "annoPubblicazione": 1892
+    }
+  },
+  {
+    "titolo": "Poirot Indaga",
+    "genere": "Giallo",
+    "autore": "Agatha Christie",
+    "premi_vinti": ["Edgar Award"],
+    "dettagli": {
+      "pagine": 288,
+      "editore": "Mondadori",
+      "annoPubblicazione": 1924
+    }
+  },
+  {
+    "titolo": "Il Commissario Montalbano: La Forma dell'Acqua",
+    "genere": "Giallo",
+    "autore": "Andrea Camilleri",
+    "premi_vinti": ["Premio Rhone-Poulenc", "Premio Selezione Campiello"],
+    "dettagli": {
+      "pagine": 224,
+      "editore": "Sellerio",
+      "annoPubblicazione": 1994
+    }
+  },
+  {
+    "titolo": "Cosmos",
+    "genere": "Saggistica",
+    "autore": "Carl Sagan",
+    "premi_vinti": ["Hugo Award", "Peabody Award", "Emmy Award"],
+    "dettagli": {
+      "pagine": 365,
+      "editore": "Random House",
+      "annoPubblicazione": 1980
+    }
+  },
+  {
+    "titolo": "Breve Storia del Tempo",
+    "genere": "Saggistica",
+    "autore": "Stephen Hawking",
+    "dettagli": {
+      "pagine": 212,
+      "editore": "Bantam Books",
+      "annoPubblicazione": 1988
+    }
+  }
+]
+
